@@ -1,6 +1,6 @@
 # WeatherApp
 
-A weather application which provides the forecast from an open source weather API based on the location provided
+A weather application which provides the forecast using weatherstack API based on the location provided
 
 URL: https://rishikesh-weather-app.herokuapp.com/
 
