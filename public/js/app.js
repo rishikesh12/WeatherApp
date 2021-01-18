@@ -9,7 +9,7 @@ weatherForm.addEventListener('submit', (event) => {
   successElement.textContent = '';
   const location = search.value;
 
-  fetch(`http://localhost:4000/weather?address=${encodeURIComponent(location)}`).then((response) => {
+  fetch(`/weather?address=${encodeURIComponent(location)}`).then((response) => {
   response.json().then((data) => {
     if(data.error) {
       errorElement.textContent = data.error;
